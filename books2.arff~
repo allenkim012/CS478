@@ -1,0 +1,18 @@
+
+@RELATION book
+
+@ATTRIBUTE salesRate	REAL
+@ATTRIBUTE changeofranking	REAL
+@ATTRIBUTE class 	{book-worstseller, book-bestseller}
+
+@Data
+0.8,0.6,book-bestseller
+0.2,0.2,book-bestseller
+0.4,0.8,book-bestseller
+0.9,0.5,book-bestseller
+-0.4,-0.2,book-worstseller
+-0.8,-0.6,book-worstseller
+-0.2,0.1,book-worstseller
+-0.9,-0.8,book-worstseller
+
+
